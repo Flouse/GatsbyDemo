@@ -1,4 +1,6 @@
 import * as React from "react"
+import Header from "../components/header"
+import { Link } from "gatsby"
 
 // styles
 const pageStyles = {
@@ -130,10 +132,14 @@ const IndexPage = () => {
   return (
     <main style={pageStyles}>
       <title>Home Page</title>
+      <Header>Gastby Home</Header>
+      <Link to="/contact/">Contact</Link>
+      <br />
+      <img src="https://source.unsplash.com/random/300x300" alt="" />
+      {/* <h1 style={{ color: `purple`, fontSize: `72px`}}>Hello Gatsby</h1> */}
       <h1 style={headingStyles}>
         Congratulations
-        <br />
-        <span style={headingAccentStyles}>— you just made a Gatsby site! </span>
+        <span style={headingAccentStyles}> — you just made a Gatsby site! </span>
         <span role="img" aria-label="Party popper emojis">
           🎉🎉🎉
         </span>

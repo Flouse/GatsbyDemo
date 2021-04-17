@@ -14,11 +14,20 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {
+    "@emotion/react": "^11.1.5",
     "gatsby": "^3.2.1",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "gatsby-plugin-emotion": "^6.3.0",
+    "gatsby-plugin-typography": "^3.3.0",
+    "gatsby-source-filesystem": "^3.3.0",
+    "gatsby-transformer-remark": "^4.0.0",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-typography": "^0.16.19",
+    "typography": "^0.16.19",
+    "typography-theme-kirkham": "^0.16.19"
   },
   "devDependencies": {
+    "@types/node": "^14.14.41",
     "prettier": "2.2.1"
   },
   "repository": {
